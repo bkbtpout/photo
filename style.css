@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0 10%;
+  background-color: #f1f4f9;
+  font-family: "Host Grotesk", sans-serif;
+}
+
+.zag {
+  color: #474747;
+  font-size: 34px;
+}
+
+.filt {
+  display: flex;
+  font-size: 14px;
+  margin-top: 0;
+  color: #979ea6;
+}
+
+.applide-filter {
+  display: flex;
+  gap: 8px;
+}
+
+.filter {
+  font-family: "Host Grotesk", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 121px;
+  height: 41px;
+  box-sizing: border-box;
+  padding: 12px 11px;
+  color: #fff;
+  font-size: 14px;
+  background: linear-gradient(270deg, #fd814a -12.71%, #fc5c4c 121.19%);
+  box-shadow: 0 5px 20px 0 #fd714b40;
+  border-radius: 10px;
+}
+
+.filter > button {
+  width: 8px;
+  height: 8px;
+  margin-top: 3px;
+  border: none;
+  background-color: transparent;
+}
+
+.filter > button:hover {
+  cursor: pointer;
+}
+
+.galereya {
+  display: flex;
+  margin-top: 26px;
+}
+
+.card {
+  width: 343px;
+  height: 225px;
+  gap: 1px;
+}
+
+.card-img {
+  max-width: 333px;
+  display: grid;
+  grid-template-areas:
+    "img1 img2"
+    "img1 img3";
+}
+
+.photo-1 {
+  grid-area: img1;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-2 {
+  grid-area: img2;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-3 {
+  grid-area: img3;
+  width: 100%;
+  height: 100%;
+}
+
+.card-panel > button {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  border: none;
+  background: #c4c4c4;
+  margin-right: 15px;
+  margin-top: 12px;
+}
+
+.plus {
+  color: #ffffff;
+  
+}
+
+.card-panel > span {
+  font-family: "Host Grotesk", sans-serif;
+  width: 343px;
+  height: 61px;
+  border-radius: 0 0 10px 10px;
+  margin-left: 20px;
+}
+
+.card-panel {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 97%;
+  height: 61px;
+  border-radius: 0 0 10px 10px;
+ background-color: white;
+}
