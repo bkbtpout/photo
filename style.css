@@ -99,7 +99,6 @@ body {
 
 .plus {
   color: #ffffff;
-  
 }
 
 .card-panel > span {
@@ -117,6 +116,5 @@ body {
   width: 97%;
   height: 61px;
   border-radius: 0 0 10px 10px;
- background-color: white;
- 
+  background-color: white;
 }
